@@ -1,0 +1,14 @@
+.event-title {
+    color: #2c3c90;
+    font-family: Syne;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+}
+.event-desc {
+    color: #1a1a38;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}

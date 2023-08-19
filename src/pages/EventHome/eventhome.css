@@ -1,0 +1,234 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+  } */
+  .section {
+    height: 624px;
+    background-color: peachpuff;
+    padding: 0px 7.4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-sec {
+    width: 100%;
+    height: 464px;
+    background-image: url("../../../public/images/image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  .banner-card {
+    display: flex;
+    padding: 32px 7.4%;
+    background-color: rgba(252, 252, 252, 1);
+    height: 160px;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 16px;
+  }
+  .banner-title {
+    font-family: Syne;
+    font-size: 40px;
+    font-weight: 800;
+    color: #94248C;
+  }
+  .banner-details {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(26, 26, 56, 1);
+  }
+  .event-detail {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #D7DCF8;
+    background: #FCFCFC;
+    margin: 64px 14%;
+  }
+  .t-split {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .ticket-section {
+    margin: 64px 14%;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .tsec-title {
+    color: #94248c;
+    font-family: Syne;
+    font-size: 32px;
+    font-weight: 800;
+    width: 375px;
+  }
+  .t-table {
+    display: flex;
+    gap: 32px;
+    padding: 24px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    background: #fff;
+    
+  }
+  .t-color {
+    display: flex;
+    gap: 24px;
+    width: 30%;
+    align-items: center;
+  }
+  .tab-con {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .green {
+    background-color: rgba(254, 147, 101, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .orange {
+    background-color: rgba(178, 119, 2, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .light-blue {
+    background-color: rgba(3, 170, 222, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .purple {
+    background-color: rgba(91, 35, 252, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .t-price {
+    width: 25%;
+  }
+  .qnty {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .q-type {
+    color: #333;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .q-box {
+    display: flex;
+    width: 91px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(51, 51, 51, 0.10);
+    background: #F1F1F1;
+  }
+  .q-box-box {
+    width: 24px;
+    height: 24px;
+    background: #FFF;
+  }
+  .zero {
+    font-family: Inter;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .t-btn {
+    width: 15%;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #94248C;
+    color: #FFF;
+  }
+  .prom-detail {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #D7DCF8;
+    background: #FCFCFC;
+    margin: 64px 14%;
+  }
+  .heading {
+    color: #1A1A38;
+    font-family: Syne;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .text-1 {
+    color:#1A1A38;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: self-start;
+ }
+ .text-2 {
+    color: #1A1A38;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+ }
+ .info {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+ }
+ .num,
+ .twitter,
+ .fb,
+ .ig,
+ .email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    color: #C9C9CD;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+ }
+ .number,
+ .tweet,
+ .fbook,
+ .insta,
+ .mail {
+    color: #1A1A38;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+ }
+ 
+ 

@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-container {
+    display: flex;
+    width: 100;
+    height: 138px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #FCFCFC;
+    padding: 0px 128px;
+}
+.pantiket {
+    color: rgba(44, 60, 144, 1);
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 24px;
+}
+.footer-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+}
+.phone-div,
+.mail-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+.phone-div img,
+.mail-div img, 
+.footer-socials img {
+    width: 24px;
+    height: 24px;
+}
+.footer-socials {
+    gap: 6px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer-down {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}

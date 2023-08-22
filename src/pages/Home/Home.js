@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Events from "../../components/Events/Events";
 import FeaturedEvents from "../../components/Featured Events/FeaturedEvents";
-import Input from "../../components/Input/Input";
+// import Input from "../../components/Input/Input";
 import "./Home.css";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
           <p className="text-content">interest</p>
         </div>
       </header>
-      <section className="event-section">
+      {/* <section className="event-section">
         <form className="search-form">
           <div className="search-input">
             <Input placeholder={"Search Event"} />
@@ -24,11 +24,8 @@ function Home() {
           <div className="category-input">
             <Input placeholder={"Categories"} />
           </div>
-          {/* <div className="form-btn">
-            <Button variation={"sec"} title={"Search Event"} />
-          </div> */}
         </form>
-      </section>
+      </section> */}
 
       <div className="event-container">
         <p className="event-title">Events near you</p>
@@ -122,6 +119,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
